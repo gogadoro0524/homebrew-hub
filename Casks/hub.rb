@@ -5,9 +5,10 @@ cask "hub" do
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/Hub-#{version}-arm64.zip"
   name "Hub"
   desc "Connect local AI agents, sessions, projects, and services"
-  homepage "https://hub-web-phi.vercel.app"
+  homepage "https://hub-web-phi.vercel.app/"
 
   depends_on arch: :arm64
+  depends_on macos: ">= :ventura"
 
   app "Hub.app"
 

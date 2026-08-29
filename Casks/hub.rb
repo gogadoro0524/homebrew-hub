@@ -1,6 +1,6 @@
 cask "hub" do
-  version "0.1.4"
-  sha256 "1bdc795f33fb5027331138c9e127014f314022fd20e1eaad6c75efaebf5e6df0"
+  version "0.1.5"
+  sha256 "d8f89783b8bbbf77c2c47cb9153550952a51c8738988d9573485b3304d140da7"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/Hub-#{version}-arm64.zip"
   name "Hub"

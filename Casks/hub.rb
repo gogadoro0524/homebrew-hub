@@ -1,16 +1,16 @@
 cask "hub" do
-  version "0.1.7"
-  sha256 "31b3a3969e77b389f6fa6e35f166316659efdacf8eba424bf1d7dde5243048cf"
+  version "0.1.8"
+  sha256 "38008e4ffa468caaf145e56613d1ffeff41a6d02641902bd1a2489a86ea4bce2"
 
-  url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/Hub-#{version}-arm64.zip"
-  name "Hub"
+  url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/argos-#{version}-arm64.zip"
+  name "argos"
   desc "Connect local AI agents, sessions, projects, and services"
   homepage "https://noname-os.vercel.app/"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
 
-  app "Hub.app"
+  app "argos.app"
 
   zap trash: [
     "~/Library/Application Support/Hub",

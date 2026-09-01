@@ -1,11 +1,11 @@
 cask "hub" do
-  version "0.1.6"
-  sha256 "509bc917130c386a668a487c6e92f80b8e5bfc2d7adceb7f1ca1663f772fd1c8"
+  version "0.1.7"
+  sha256 "31b3a3969e77b389f6fa6e35f166316659efdacf8eba424bf1d7dde5243048cf"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/Hub-#{version}-arm64.zip"
   name "Hub"
   desc "Connect local AI agents, sessions, projects, and services"
-  homepage "https://hub-web-phi.vercel.app/"
+  homepage "https://noname-os.vercel.app/"
 
   depends_on arch: :arm64
   depends_on macos: :ventura

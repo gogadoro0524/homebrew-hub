@@ -1,6 +1,6 @@
 cask "argos" do
-  version "0.1.9"
-  sha256 "944100157f93596e5ce810b6193ee3ef5d08533589f5b3eda2c963c7b48d302f"
+  version "0.1.10"
+  sha256 "5e6d2a5d9012dce117583e8816bd0991038c16aac31f1d65cfa5cbec635e66fd"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/argos-#{version}-arm64.zip"
   name "argos"

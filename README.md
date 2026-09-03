@@ -1,15 +1,15 @@
-# Hub Homebrew Tap
+# bkgd Homebrew Tap
 
-Install the signed and Apple-notarized Hub desktop app on Apple Silicon macOS:
+Install the signed and Apple-notarized bkgd desktop app on Apple Silicon macOS:
 
 ```bash
-brew install --cask gogadoro0524/hub/hub
+brew install --cask gogadoro0524/hub/bkgd
 ```
 
 Upgrade later with:
 
 ```bash
-brew upgrade --cask gogadoro0524/hub/hub
+brew upgrade --cask gogadoro0524/hub/bkgd
 ```
 
 The Hub source repository remains private. This public tap contains only the

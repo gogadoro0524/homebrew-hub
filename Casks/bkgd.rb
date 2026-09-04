@@ -1,6 +1,6 @@
 cask "bkgd" do
-  version "0.1.16"
-  sha256 "69a3fdfc6ebe18602b29ab7ee79bae40fd2ca794f275490c1c4244653f933725"
+  version "0.1.17"
+  sha256 "b690b8bca69c1dee0858ab308ae4577e8f5007c65f087de919bac14df08dce2e"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/bkgd-#{version}-arm64.zip"
   name "bkgd"

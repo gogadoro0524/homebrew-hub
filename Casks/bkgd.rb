@@ -1,6 +1,6 @@
 cask "bkgd" do
-  version "0.1.18"
-  sha256 "48f21889a92e9081f85c19bb6277501c6c42837c60f22af29cc38cf5d1141358"
+  version "0.1.19"
+  sha256 "117e6abc9e6f0bae5fe03355a655934281c57757164b041ce62cfedd23625f90"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/bkgd-#{version}-arm64.zip"
   name "bkgd"
@@ -19,3 +19,4 @@ cask "bkgd" do
     "~/Library/Saved Application State/app.bkgd.desktop.savedState",
   ]
 end
+

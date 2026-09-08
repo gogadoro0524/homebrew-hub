@@ -1,6 +1,6 @@
 cask "agos" do
   version "0.1.23"
-  sha256 "e2603cf6d1f66f6532e51cb2fdde826569cbc104506ff3bf39a64a2fef0bde49"
+  sha256 "34bc7dbf2a6e9a0ad8ba0422c26b7f3e13d4cacfe332698cf4457e34063753d4"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/agos-#{version}-arm64.zip"
   name "agos"

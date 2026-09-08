@@ -1,6 +1,6 @@
 cask "worktory" do
-  version "0.1.24"
-  sha256 "d89303ab2aa4323a1cf192403bc6b73adb19ee1cb87a36aaf5c00cd9c0c18d8e"
+  version "0.1.25"
+  sha256 "aa55b7ede11c5580734099190c04d57c8c338c80d51f8a6d829dd7bdb61f9abf"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/worktory-#{version}-arm64.zip"
   name "worktory"

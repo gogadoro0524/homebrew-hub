@@ -1,18 +1,19 @@
-cask "worktory" do
-  version "0.1.39"
-  sha256 "0482a00db9cec6a7f3b8148a8b7afd6b54b6dae49e707856ff07fff09fa73c8a"
+cask "blueberry" do
+  version "0.1.40"
+  sha256 "04e17d28cfab5f0d91c146b0d827a0907e0e4dec9cc3c93fad1fe9a8a4edac1e"
 
-  url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/Blueberry-#{version}-arm64.zip"
-  name "Blueberry"
+  url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/blueberry-#{version}-arm64.zip"
+  name "blueberry"
   desc "Connect local AI agents, sessions, projects, and services"
   homepage "https://withblueberry.com/"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
 
-  app "Blueberry.app"
+  app "blueberry.app"
 
   zap trash: [
+    "~/Library/Application Support/blueberry",
     "~/Library/Application Support/worktory",
     "~/Library/Caches/app.worktory.desktop",
     "~/Library/Preferences/app.worktory.desktop.plist",

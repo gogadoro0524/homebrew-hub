@@ -1,6 +1,6 @@
 cask "blueberry" do
-  version "0.1.54"
-  sha256 "ac669cb50a736a2f12d41407077f5e87b76d0247a75f61eb3218437b71ff9a2c"
+  version "0.1.55"
+  sha256 "d6f32797292f989244468a9d7830feba38522eecb808ec5900d56f977a6df0a7"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/blueberry-#{version}-arm64.zip"
   name "blueberry"

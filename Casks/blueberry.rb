@@ -1,6 +1,6 @@
 cask "blueberry" do
-  version "0.1.118"
-  sha256 "e8a03bdef0ebd6e6ea1e51e1345deff1ea0a983dc6883d4e18614239549d76d5"
+  version "0.1.119"
+  sha256 "292d222c884b3c2a57ad6d9680c835660fd654b8d99cb07dde5ba8459dca0344"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/blueberry-#{version}-arm64.zip"
   name "Winder"

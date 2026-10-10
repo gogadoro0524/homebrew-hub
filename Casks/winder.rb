@@ -1,6 +1,6 @@
 cask "winder" do
-  version "0.1.138"
-  sha256 "4c91325c58399f51a84ddfcf9382aa23c18565c670124ee22bd0fe0f36e94768"
+  version "0.1.139"
+  sha256 "d8a9fad13dde896880301ce25008c1f11663d36e9a6dab8aea84f9e1e2096608"
 
   url "https://github.com/gogadoro0524/homebrew-hub/releases/download/v#{version}/winder-#{version}-arm64.zip"
   name "Winder"
